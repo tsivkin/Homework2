@@ -1,0 +1,98 @@
+
+body{
+    background-image: url("11jpg.jpg");
+    background-size: no-repeat;
+    background-repeat: no-repeat
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+  width: 100%;
+  height: 220px;
+  margin: 0;
+  padding: 0;
+}
+
+header::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 220px;
+  margin: 0;
+  padding: 0;
+  background: url(hdr.jpg) center no-repeat;
+  background-size: cover;
+}
+
+p {
+    font-size: 18px;
+    color: #6E6E6E;
+    font-family: "Gilfont-family: "l Sans", sans-serif;
+}
+h1 {
+    font-size: 24px;
+    color: #000000;
+    font-family: system-ui;
+}
+
+h3 {
+    color: #bb0000;
+    font-family: serif;
+}
+
+.textcols {
+  height: 400px;
+  font-size: 16;
+}
+.textcols-item, .textcols-item2 {
+  display: inline-block;
+  vertical-align: top;
+}
+.textcols-item {
+  width: 1200px;
+  outline: 3px;
+  font-size: 14px;
+}
+
+.textcols-item2 {
+  width: calc(100% - 1500px);
+  outline: 550px;
+  font-size: 24px;
+}
+
+input[type="text"] {
+font-size: 18px;
+height: 24px;
+width: 300px;
+}
+
+label [for="name"] {
+font-size: 50px;
+height: 24px;
+width: 300px;
+}
+
+table.coasttable{
+	width: 50%;
+	border-collapse:collapse;
+	border-spacing:0;
+	height: auto;
+}
+table.coasttable,table.coasttable td, table.coasttable th {
+	border: 2px solid #595959;
+}
+table.coasttable td,table.coasttable th {
+	padding: 3px;
+	width: 30px;
+	height: 35px;
+}
+table.coasttable th {
+	background: #347c99;
+	color: #fff;
+	font-weight: normal;
+}
+
